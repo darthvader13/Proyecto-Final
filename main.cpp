@@ -201,13 +201,13 @@ int main( int argc, char* args[] )
             if(Event.type == SDL_KEYDOWN)
             {
                 if(Event.key.keysym.sym == SDLK_d)
-                    rect_character.x+=10;
+                    rect_character.x+=50;
                 if(Event.key.keysym.sym == SDLK_a)
-                    rect_character.x-=10;
+                    rect_character.x-=50;
                 if(Event.key.keysym.sym == SDLK_w)
-                    rect_character.y-=10;
+                    rect_character.y-=50;
                 if(Event.key.keysym.sym == SDLK_s)
-                    rect_character.y+=10;
+                    rect_character.y+=50;
             }
         }
 //Animacion Abeja1
